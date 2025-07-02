@@ -1,0 +1,28 @@
+# macOS system files
+.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+
+# Vitest test cache
+.vitest/
+coverage/
+
+# Logs
+*.log
+
+# Editor settings
+.idea/
+.vscode/
+*.swp
+
+# Chrome extension artifacts
+*.zip
+
+# OS/system trash
+__MACOSX/
+T
+
+# for testing
+*.zip
