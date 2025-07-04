@@ -17,23 +17,19 @@
 
 ## 🧩 How it Works (Code Summary)
 
-| Function                  | Purpose                                                                 |
-|--------------------------|-------------------------------------------------------------------------|
-| `parseTimestamp(text)`   | Converts `hh:mm:ss` or `mm:ss` to total seconds                         |
-| `createOverlay(text, y)` | Shows a brief confirmation overlay |
-| `enhanceTimestamps()`    | Finds and replaces timestamp text with clickable spans                  |
+| Function                      | Purpose                                                               |
+| ----------------------------- | --------------------------------------------------------------------- |
+| `parseTimestamp(text)`        | Converts `hh:mm:ss` or `mm:ss` to total seconds                       |
+| `createOverlay(text, y)`      | Shows a brief confirmation overlay                                    |
+| `enhanceTimestamps()`         | Finds and replaces timestamp text with clickable spans                |
 | `waitForCommentsAndEnhance()` | Uses a MutationObserver to wait for and track comment section updates |
 
 The extension adds `dataset.processed = true` to each comment to prevent re-processing.
 
 ---
 
-## 🚀 Installation
-
-1. Clone or [download the ZIP](https://github.com/mcpengelly/rumble-timestamp-jump)
-2. Go to `chrome://extensions`
-3. Enable **Developer mode**
-4. Click **Load unpacked** and select the `/extension` folder
+## Installation
+Get it on the [Chrome Webstore](https://chromewebstore.google.com/detail/rumble-timestamp-jump/pjdbbnijgmfcplbbkppchdnolhgablbp).
 
 ---
 
